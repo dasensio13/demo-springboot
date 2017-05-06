@@ -48,6 +48,48 @@
 				"description": ""
 			},
 			"response": []
+		},
+		{
+			"name": "GET /animal/search",
+			"request": {
+				"url": "http://localhost:8080/animal/search?crotal=26",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE /animal/-1",
+			"request": {
+				"url": "http://localhost:8080/animal/-1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH /animal/-1",
+			"request": {
+				"url": "http://localhost:8080/animal/-1",
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": -1,\n  \"crotal\": \"ES78438760000001\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
 		}
 	]
 }
