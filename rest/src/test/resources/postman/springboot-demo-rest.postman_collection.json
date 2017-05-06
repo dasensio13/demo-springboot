@@ -1,0 +1,88 @@
+{
+	"variables": [],
+	"info": {
+		"name": "springboot-demo-rest",
+		"_postman_id": "09b0bd66-0482-aff9-286a-4f573ad2492c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /",
+			"request": {
+				"url": "http://localhost:8080/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /profile",
+			"request": {
+				"url": "http://localhost:8080/profile",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /profile/animals",
+			"request": {
+				"url": "http://localhost:8080/profile/animals",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /animals",
+			"request": {
+				"url": "http://localhost:8080/animals",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /animals/-1",
+			"request": {
+				"url": "http://localhost:8080/animals/-1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /animals/-1/explotacion",
+			"request": {
+				"url": "http://localhost:8080/animals/-1/explotacion",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET /explotacions/-1/animales",
+			"request": {
+				"url": "http://localhost:8080/explotacions/-1/animales",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
